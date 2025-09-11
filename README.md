@@ -8,7 +8,7 @@ Here you'll find the projects I built while following the FreeCodeCamp curriculu
 
 ## Projects
 
-- [SurveyForm](./https://github.com/wattakeshi/FreeCodeCamp-CertificationProjects/blob/main/SurveyForm/index.html/)
+- [SurveyForm](./SurveyForm/index.html)
 
 *(I'll update this list as I finish more projects.)*
 
