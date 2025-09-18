@@ -10,8 +10,9 @@ Here you'll find the projects I built while following the FreeCodeCamp curriculu
 
 - [SurveyForm](./SurveyForm/index.html)
 - [Tribute Page HTML](./Tribute%20Page/index.html)
-- [Tribute Page CSS](./Tribute%20Page/styles.css) 
-
+- [Tribute Page CSS](./Tribute%20Page/styles.css)
+- [TechnicalDocumentation HTML] (./TechnicalDocumentation/index.html)
+- [TechnicalDocumentation CSS](./TechnicalDocumentation/styles.css)
 *(I'll update this list as I finish more projects.)*
 
 **Some projects are made in Portuguese/Japanese to make learning easier.
