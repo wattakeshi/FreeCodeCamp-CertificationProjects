@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img
+          id="header-img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsX9bfJQVwBN7QtOgVtergFLlbUAy7mUTevw&s"
+          alt="logo"
+        />
+      </div>
+      <nav id="nav-bar">
+        <a href="#Features" class="nav-link">Features</a>
+        <a href="#How_it_Works" class="nav-link">How it Works</a>
+        <a href="#Pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+    <main>
+      <h1>TakeLift - PowerLifting Programs</h1>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          required
+          name="email"
+          id="email"
+          placeholder="your_email_@____.com"
+        />
+        <br />
+        <label for="email"></label><button type="submit">Get Started</button>
+      </form>
+      <section class="Features" id="Features">
+        <div class="Individual" id="Individual">
+          <span
+            ><img
+              src="data:image/png;base64,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"
+          /></span>
+          <h2>Individual structured programs</h2>
+          <p class="text lf">
+            Reach your personal goals. whatever it is, Squat, Bench-press or
+            Deadlift focused.
+          </p>
+        </div>
+        <div class="assistance" id="assistance">
+          <span
+            ><img
+              src="data:image/png;base64,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"
+          /></span>
+          <h2>24/7 assistance</h2>
+          <p class="text lf">You can have your lift reviewed at any time.</p>
+        </div>
+        <div class="flexible" id="flexible">
+          <span
+            ><img
+              src="data:image/jpeg;base64,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"
+          /></span>
+          <h2>Flexible for any level!</h2>
+          <p class="text lf">
+            Whether you're just starting out or competing at an advanced level.
+          </p>
+        </div>
+      </section>
+      <hr />
+      <section class="How_it_Works" id="How_it_Works">
+        <h2 class="center">How it Works</h2>
+        <p class="text">
+          The process begins with an initial conversation between the coach and
+          the client. This is a crucial step for establishing a clear
+          understanding of your current training level and your personal goals.
+        </p>
+
+        <p class="text">
+          During this discussion, we'll talk about your fitness history, any
+          past injuries, your experience with different types of exercise, and
+          what you hope to achieve. This information helps me tailor a workout
+          plan that's not only effective but also safe and sustainable for you.
+        </p>
+
+        <p class="text">
+          Once we've identified your stage, we will build a plan that you're
+          excited about and can stick with, ensuring a successful and rewarding
+          fitness journey.
+        </p>
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/LrDJXIQ_-eg?si=S_Q5Ozk3pt9BQwxL"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <hr />
+      <h2 class="center">Plans</h2>
+      <section id="Pricing" class="Pricing">
+        <div class="plan">
+          <h3 class="tit">Beginner Plan</h3>
+          <h3 class="tit">3,000¥</h3>
+          <p>1 Month</p>
+          <p>Lifting technique basics</p>
+          <p>Chat support included</p>
+        </div>
+        <div class="plan">
+          <h3 class="tit">Beginner Plan</h3>
+          <h3>10,000¥</h3>
+          <p>3 Months</p>
+          <p>Weekly volume adjustment</p>
+          <p>Chat support included</p>
+        </div>
+        <div class="plan">
+          <h3 class="tit">Advanced Plan</h3>
+          <h3 class="tit">25,000¥</h3>
+          <p>6 Months</p>
+          <p>Weekly volume adjustment</p>
+          <p>Chat support included</p>
+          <p>Advanced periodization</p>
+          <p>Recovery and Injury prevention strategies</p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer></footer>
+</html>
