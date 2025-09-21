@@ -13,6 +13,8 @@ Here you'll find the projects I built while following the FreeCodeCamp curriculu
 - [Tribute Page CSS](./Tribute%20Page/styles.css)
 - [TechnicalDocumentation HTML](./TechnicalDocumentation/index.html)
 - [TechnicalDocumentation CSS](./TechnicalDocumentation/styles.css)
+- [Landing Page HTML](./LandingPage/index.html)
+- [Landing Page CSS](./LandingPage/styles.css)
   
 *(I'll update this list as I finish more projects.)*
 
