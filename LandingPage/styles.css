@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(25, 25, 25);
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+  color: orangered;
+  text-align: center;
+}
+h1 {
+  padding-top: 60px;
+  background-color: rgb(25, 25, 25);
+}
+p {
+  color: rgb(178, 178, 194);
+}
+header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+}
+img#header-img {
+  height: 50px;
+}
+#nav-bar {
+  background-color: white;
+}
+a {
+  background-color: white;
+  color: orangered;
+  font-size: larger;
+  font-weight: bold;
+  margin: 0 10px 0 10px;
+}
+input {
+  width: 300px;
+  color: white;
+}
+form {
+  display: flex;
+  justify-content: center;
+  border: 5px orangered solid;
+  border-radius: 20px;
+}
+button {
+  background-color: grey;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(185, 33, 33);
+  border-color: orangered;
+}
+input {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+}
+.plan {
+  background-color: rgb(25, 25, 25);
+  border: 5px solid grey;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.Pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Features {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  color: orangered;
+}
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+h2.center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.text {
+  text-align: center;
+}
+.How_it_Works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lf {
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .Pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
